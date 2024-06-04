@@ -1,0 +1,9 @@
+let alive = true;
+
+const WaitingForYou = () => {
+    console.log("I'm waiting for you");
+}
+
+while (alive) {
+    WaitingForYou
+}
